@@ -18,4 +18,6 @@ The whole setup is enclosed in an electrical junction box. Holes are drilled to 
 
 ## Software
 
-The firmware is pretty simple, two IO pins are used, one for sensor input and the other for driving the relay. The relay module works on an active_low signal and hence the output pin is pulled high when there's no output from the sensor. The dispensing and pause periods can be adjusted as wished.
+The firmware is pretty simple, two IO pins are used, one for sensor input and the other for driving the relay. The relay module works on an active_low signal and hence the output pin is pulled high when there's no output from the sensor. The dispensing and pause periods can be adjusted as wished. An Ardiuno Uno is used as ISP Programmer to program ATtiny85 chip. Please have a look at this [**Instructable by NemesisC**](https://www.instructables.com/id/How-to-Program-an-Attiny85-From-an-Arduino-Uno/) for more info into programming ATtiny85 chip with Arduino Uno.
+
+*Please feel free to make suggestions and improvements to this project so that anyone can build a custom dispenser cost effectively for any cause.*
